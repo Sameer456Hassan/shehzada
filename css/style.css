@@ -1,0 +1,556 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff !important;
+}
+a {
+    text-decoration: none !important;
+    
+}
+.my-navbar{
+    margin-bottom: 2rem !important;
+    padding: 0rem 0rem !important;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+   
+}
+.navbar {
+    background: transparent;
+    margin: 0rem;
+    transition-duration: 0.7s;
+    transition: all .5s ease;
+    
+
+}
+.navbar-nav {
+    margin-left: auto;
+    transition: all .5s ease;
+
+  
+}
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    transition: all .5s ease;
+
+}
+.nav-link{
+    color: #000000 !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+   text-align: center;
+   transition: all .5s ease;
+
+    
+    
+}
+.navbar.scrolled {
+    background: #fff;
+    transition: all .5s ease;
+    /* margin-left: 0; */
+    /* margin-right: 101px; */
+    /* width: 100vw; */
+
+}
+.nav-link:hover{
+background-color: #11381c;
+/* transform:scale(1.1) */
+color: #fff !important;
+transition-duration: .6s;
+
+}
+.hireme-btn {
+    height: 2rem;
+    width:5.9rem;
+    background-color: #472f66;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 2px 2px 2px 2px;
+    margin: 2px 2px 2px 2px;
+   
+}
+.hello-box{
+    height: 2rem;
+    width: 7rem;
+    background-color: #11381c;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px 2px 2px 2px ;
+    position: absolute;
+    margin-top: 11.5rem;
+    left: 40%;
+} 
+.arrow {
+    background-color: #11381c;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 0px 0px 60% 60% ;
+
+    position: absolute;
+    top: 96%;
+    left: 20%;
+}
+.intro {
+    
+    margin-top: 17rem;
+    margin-left: 6rem;
+
+}
+.intro h2 {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-top: -3rem;
+}
+.intro p {
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    
+}
+
+.cv-btn {
+    height: 2.5rem;
+    width: 8rem;
+    background-color: #11381c;
+    outline: none;
+    border: none;
+    border-radius: 3px 3px 3px 3px ;
+    color: #fff;
+    margin: 2px 2px 2px 2px;
+  
+
+}
+.work-btn {
+    height: 2.5rem;
+    width: 8rem;
+    background-color: transparent;
+    border: 2px solid #000000;
+    border-radius: 3px 3px 3px 3px;
+    outline: none;
+    transition: all .6s ease;
+    margin: 2px 2px 2px 2px;
+
+}
+.work-btn:hover {
+    background-color: #11381c;
+    outline: none;
+    border: none;
+    border-radius: 3px 3px 3px 3px ;
+    color: #fff;
+    transition: all .6s ease;
+
+
+}
+.picture img{
+    height: 400px;
+    width: 400px;
+    margin-top: 6rem;
+    display: block;
+    border-radius: 5px 5px 5px 5px;
+    
+}
+.scroll-down{
+    height: 3rem;
+    width: 2rem;
+    border: 2px solid black;
+    border-radius: 20px 20px 20px 20px;
+    margin: 5px 5px 5px 5px;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    cursor: pointer;
+}
+.circle {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: #11381c;
+    margin: 4px 4px 6px 6px;
+    animation: color 2s infinite alternate ;
+   
+    
+
+}
+@keyframes color{
+    
+    50% {
+        transform: translateY(-30%);
+      }
+      100% {
+        transform: translateY(80%);
+      }
+}
+.progress-section {
+    margin-top: 8rem;
+    color: wheat;
+    background-color:#0d6efd;
+
+}
+.progress {
+    height:0.4rem!important;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #000;
+}
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    
+   
+}
+ h5{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+   
+}
+.progress-bar {
+    background-color: #11381c !important;
+}
+/* .hire-me-btn{
+    height: 2.5rem;
+    width: 8rem;
+    background-color: #11381c;
+    outline: none;
+    border: none;
+    border-radius: 33px 3px 3px 3px ;
+    color: #fff;
+    margin: 2px 2px 2px 2px;
+  
+} */
+
+.aboutme-btn{
+    height: 2.5rem;
+    width: 8rem;
+    background-color: transparent;
+    border: 2px solid #000000;
+    border-radius: 13px 33px 31px 23px;
+    outline: none;
+    transition: all .6s ease;
+    background-color:#11381c;
+    margin: 2px 2px 2px 2px;
+    color: #fff;
+}
+.aboutme-btn:hover {
+    background-color:#e7ffee;
+    outline: none;
+    border: none;
+    border-radius: 3px 3px 3px 3px ;
+    color: rgb(22, 0, 0);
+    transition-duration: .6s;
+
+}
+.exp {
+    height:7rem;
+    width: 7rem;
+    background-color: #11381c;
+    border-radius: 4px 4px 4px 4px;
+    position: absolute;
+    top: 46%;
+    left:-0rem;
+
+}
+.sbox{
+    height: 1rem;
+    width: 0.5rem;
+    background-color: bisque;
+    margin-left: 20px;
+    display: inline-block;
+    clear: both;
+    margin-top: -0rem;
+}
+h6 {
+    font-family: 'Poppins', sans-serif;
+ font-weight: bolder;
+ color: #fff;
+ text-align: center;
+ padding: 2px;
+}
+
+.lcontainer{
+   margin-left: 50%;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+.line{
+    content: "";
+    height: 1rem;
+    width:0.1rem;
+    background-color: #11381c;
+    display: block;
+    margin: 0.2rem;
+}
+
+ .service-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+ }
+ .service-content p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+ }
+.card {
+    height: 3rem;
+    background-color: #11381c !important;
+    border-radius: 3px 3px 3px 3px;
+    color:#fff;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.card-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: bisque;
+    display: inline-block;
+    clear: both;
+    margin-top: 0rem;
+    
+}
+.card-head {
+    color: #fff;
+    text-align: right;
+    display: inline-block;
+    clear: both;
+    text-align: center;
+}
+.card-head  h6{
+    text-align: center;
+    margin-top: -2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    
+    
+}
+.fab {
+    color: #11381c;
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 0.6rem;
+    margin-top: 0.6rem;
+}
+.fas{
+    color: #11381c;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 0.6rem;
+    margin-top: 0.6rem;
+}
+.experience{
+    margin-top: 2rem;
+    height: auto;
+    width: 100%;
+    
+    padding: 4rem;
+    background-image: url('/img/contatimg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.box{
+    height: 10rem;
+    width: 10rem;
+    background-color: #11381c;
+    border-radius: 4px 4px 4px 42px;
+    margin-top: 2rem;
+    /* border: 3px dotted ; */
+    /* color: whea; */
+}
+
+.cen-box{
+    height: 10rem;
+    width: 10rem;
+    background-color: #11381c;
+    border-radius: 4px 4px 24px 41px;
+    margin-top: 2rem;
+    
+}
+.box h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 3rem;
+
+}
+.cen-box h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 3rem;
+
+}
+.box p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fbfffc;
+    font-weight: bold;
+
+}
+.cen-box p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+.portfolio {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.porfolio-box
+{
+    margin-top: 2rem;
+   
+    
+}
+.porfolio-box img:hover{
+    transition: all .5s ease;
+    
+    transform: scale(1.1);
+
+}
+.porfolio-box img{
+    transition: all .5s ease;
+    
+    border-radius: 5px 5px 5px 5px;
+}
+.visit-btn {
+    height: 2rem;
+    width:5.9rem;
+    background-color: #11381c;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 2px 2px 2px 2px;
+    margin-top: 2rem;
+    
+    transition: all .4s ease-out;
+} 
+.visit-btn:hover {
+  background-color: transparent;
+  border: 2px solid #11381c;
+  transform: scale(1.1);
+  color: #000000;
+  transition-duration: .4s;
+}
+.FreelanceLink{
+    margin-top: 2rem;
+    height: auto;
+    padding:3rem;
+    background-image: url(../img/experience-bg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+}
+.FreelanceLink h3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+}
+.FreelanceLink p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 4rem;
+}
+.contact{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.contact  h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+.contact  p{
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+
+}
+.contact  span{
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+.smedia{
+    height: 3rem;
+    width: 14rem;
+    background-color: bisque;
+    border-radius: 5px 5px 5px 5px;
+    
+}
+.smedia span {
+   margin-left: 1rem;
+    
+}
+.contact-form {
+    font-family: 'Poppins', sans-serif;
+}
+.contact-form input  {
+   margin-top: 1rem;
+   width: 25rem; 
+   margin-left: 1rem;
+   border: 2px solid bisque;
+   border-radius: 5px 5px 5px 5px;
+   padding: 5px 5px;
+  
+}
+::placeholder{
+    color: #11381c;
+}
+input:focus{
+    border: 3px solid #11381c;
+}
+.contact-form textarea:focus{
+    border: 3px solid #11381c;
+}
+
+
+
+
+
+ .contact-form textarea{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 25rem; 
+    border: 2px solid bisque;
+   border-radius: 5px 5px 5px 5px;
+   padding: 5px 5px;
+ 
+ }
+ .submit-btn{
+     height: 2.5rem;
+     width: 5rem;
+     background-color:#11381c;
+     color: #fff;
+     border: none;
+ }

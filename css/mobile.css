@@ -1,0 +1,123 @@
+@media screen and (max-width: 995px){
+    .progress-section img { 
+        height: 300px;
+        width: 320px;
+
+    }
+}
+@media screen and (max-width:1200px){
+    .card-head h6 {
+        text-align: right;
+        font-size: 0.9rem;
+    }
+    
+}
+
+    
+    @media screen and (max-width:845px){
+         .contact-form input {
+             width: 20rem;
+         }
+         .contact-form textarea{
+            width: 20rem;
+         }
+         
+        }
+@media screen and (max-width:760px){
+        .contact-form input  { 
+          width: 25rem;
+          
+           
+         }
+         
+         .contact-form textarea{
+            width: 25rem;
+         }
+        }
+
+@media screen and (max-width:760px){
+        .contact-form input  { 
+          width: 25rem;
+          
+           
+         }
+         
+         .contact-form textarea{
+            width: 25rem;
+         }
+        }
+        
+@media screen and (max-width:1000px){
+    .picture img {
+        height: 300px !important;
+        width: 200px !important;
+        margin-top: 11rem;
+}
+}
+@media screen and (max-width:750px){
+    .picture img {
+        height: 100% !important;
+        width: 400px !important;
+    }
+    .progress-section img { 
+        height: 340px;
+        width: 360px;
+
+    }
+    .card-head h6 {
+        text-align: center;
+       
+        font-size: 1rem;
+    }
+   
+       
+    
+     
+
+@media screen and (max-width:450px){
+    .contact-form input  { 
+        width: 20rem;
+        
+         
+       }
+       
+       .contact-form textarea{
+          width: 20rem;
+       }
+      }
+      .picture img {
+          height: 300px !important;
+          width: 300px !important;
+      }
+      .progress-section img {
+        height: 300px !important;
+        width: 300px !important;
+      }
+}
+@media screen and (max-width:370px){
+    .contact-form input  { 
+        width: 15rem;
+        
+         
+       }
+       
+       .contact-form textarea{
+          width: 15rem;
+       }
+       .picture img {
+        height: 250px !important;
+        width: 250px !important;
+    }
+    .progress-section img {
+      height: 250px !important;
+      width: 250px !important;
+    }
+      }
+    
+@media screen and (max-width:330px){
+    .intro h2 {
+
+        font-size: 2rem;
+        
+    }
+}
